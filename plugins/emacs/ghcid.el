@@ -110,7 +110,7 @@ exactly. See `ghcid-mode'."
 
       (term-exec (ghcid-buffer-name)
            ghcid-process-name
-           "/run/current-system/sw/bin/bash"
+           "bash"
            nil
            (list "-c" (ghcid-command height)))
 
